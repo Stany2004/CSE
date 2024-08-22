@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.navigation {
+    display: flex;
+    background-color: blue;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.booking h1 {
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+}
+.menus ul li {
+    display: inline-block;
+}
+
+.menus ul li a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.bgimg {
+    background-image: url('../images/Hotel\ bgimg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}
+
+.header {
+    font-size:x-large ;
+    font-weight: bold;
+    text-align: center;
+    color: whitesmoke;
+    padding-top: 100px;
+}
+
+.hotels, .rooms {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background-color: white;
+    padding: 0px 20px;
+}
+
+.hotels input, .rooms input {
+    width: 535px;
+    padding: 20px;
+    border: none;
+}
+
+.search {
+    background-color: grey;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.button button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    background-color:skyblue;
+    font-size: 16px;
+}
+
+
+.footer-content {
+    background-color: rgb(218, 224, 230);
+    padding: 30px;
+}
+
+.list {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+
+.list ul li  {
+    list-style-type: none; 
+}
+
+.list ul li a {
+    text-decoration: none;
+}
+.footer p {
+    text-align: center;
+    margin-top: 150px;
+    
+}
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.logo img {
+    width: 150px;
+}
+
+.cpy p {
+    background-color: rgb(39, 37, 37);
+    text-align: center;
+    color: white;
+    font-size: large;
+    padding: 80px 0px;
+
+}
+
